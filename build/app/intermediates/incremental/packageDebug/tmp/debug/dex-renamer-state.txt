@@ -1,0 +1,4 @@
+#Wed Apr 24 20:26:15 WIB 2019
+base.0=/home/rps/coba/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

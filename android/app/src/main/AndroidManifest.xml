@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kln_pre">
+    package="com.example.coba">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -8,8 +8,8 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="kln_pre"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Kulina"
+        android:icon="@drawable/kulinamerah">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
