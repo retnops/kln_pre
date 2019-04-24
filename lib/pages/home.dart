@@ -421,139 +421,175 @@ class _HomeState extends State<Home> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/nusantara.png'),
-                            ),
-                            Text(
-                              "Nusantara",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.brown),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/nusantara.png'),
+                              ),
+                              Text(
+                                "Nusantara",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.brown),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Nusantara"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/western.png'),
-                            ),
-                            Text(
-                              "Western",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.blue),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/western.png'),
+                              ),
+                              Text(
+                                "Western",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.blue),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Western"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/japanese.png'),
-                            ),
-                            Text(
-                              "Japanese",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.red),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/japanese.png'),
+                              ),
+                              Text(
+                                "Japanese",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.red),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
-                    ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Japanese"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
+                    )
                   ],
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/chinese.png'),
-                            ),
-                            Text(
-                              "Chinese",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.yellow),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/chinese.png'),
+                              ),
+                              Text(
+                                "Chinese",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.yellow),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Chinese"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/healthy.png'),
-                            ),
-                            Text(
-                              "Healthy",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.green),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/healthy.png'),
+                              ),
+                              Text(
+                                "Healthy",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.green),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Healthy"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 110.0,
-                      width: 106.0,
-                      child: Card(
-                        child: Column(
-                          children: <Widget>[
-                            Container(
-                              height: 70.0,
-                              width: 70.0,
-                              child: Image.asset('assets/oriental.png'),
-                            ),
-                            Text(
-                              "Oriental",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.amber),
-                            ),
-                          ],
+                    GestureDetector(
+                      child: Container(
+                        height: 110.0,
+                        width: 106.0,
+                        child: Card(
+                          child: Column(
+                            children: <Widget>[
+                              Container(
+                                height: 70.0,
+                                width: 70.0,
+                                child: Image.asset('assets/oriental.png'),
+                              ),
+                              Text(
+                                "Oriental",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.amber),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Oriental"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
                   ],
-                )
+                ),
               ],
             ),
           )
@@ -821,105 +857,129 @@ class _HomeState extends State<Home> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Container(
-                      height: 100.0,
-                      width: 160.0,
-                      child: Card(
-                        child: Container(
-                          margin: EdgeInsets.only(left: 15.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                "Budget",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
+                    GestureDetector(
+                      child: Container(
+                        height: 100.0,
+                        width: 160.0,
+                        child: Card(
+                          child: Container(
+                            margin: EdgeInsets.only(left: 15.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Budget",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                  ),
                                 ),
-                              ),
-                              Text("Kurang dari 25rb"),
-                              Image.asset('assets/harga1.png')
-                            ],
+                                Text("Kurang dari 25rb"),
+                                Image.asset('assets/harga1.png')
+                              ],
+                            ),
                           ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Budget"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 100.0,
-                      width: 160.0,
-                      child: Card(
-                        child: Container(
-                          margin: EdgeInsets.only(left: 15.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                "Value",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
+                    GestureDetector(
+                      child: Container(
+                        height: 100.0,
+                        width: 160.0,
+                        child: Card(
+                          child: Container(
+                            margin: EdgeInsets.only(left: 15.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Value",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                  ),
                                 ),
-                              ),
-                              Text("Dari 25rb - 34rb"),
-                              Image.asset('assets/harga2.png')
-                            ],
+                                Text("Dari 25rb - 34rb"),
+                                Image.asset('assets/harga2.png')
+                              ],
+                            ),
                           ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Value"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
                   ],
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Container(
-                      height: 100.0,
-                      width: 160.0,
-                      child: Card(
-                        child: Container(
-                          margin: EdgeInsets.only(left: 15.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                "Casual",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
+                    GestureDetector(
+                      child: Container(
+                        height: 100.0,
+                        width: 160.0,
+                        child: Card(
+                          child: Container(
+                            margin: EdgeInsets.only(left: 15.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Casual",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                  ),
                                 ),
-                              ),
-                              Text("Dari 35rb - 49rb"),
-                              Image.asset('assets/harga3.png')
-                            ],
+                                Text("Dari 35rb - 49rb"),
+                                Image.asset('assets/harga3.png')
+                              ],
+                            ),
                           ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Casual"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
-                    Container(
-                      height: 100.0,
-                      width: 160.0,
-                      child: Card(
-                        child: Container(
-                          margin: EdgeInsets.only(left: 15.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                "Premium",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w600,
+                    GestureDetector(
+                      child: Container(
+                        height: 100.0,
+                        width: 160.0,
+                        child: Card(
+                          child: Container(
+                            margin: EdgeInsets.only(left: 15.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Premium",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                  ),
                                 ),
-                              ),
-                              Text("Lebih dari 50rb"),
-                              Image.asset('assets/harga4.png')
-                            ],
+                                Text("Lebih dari 50rb"),
+                                Image.asset('assets/harga4.png')
+                              ],
+                            ),
                           ),
                         ),
                       ),
+                      onTap: () {
+                        final snackbar = SnackBar(content: Text("Premium"));
+                        Scaffold.of(context).showSnackBar(snackbar);
+                      },
                     ),
                   ],
-                )
+                ),
               ],
             ),
           )
