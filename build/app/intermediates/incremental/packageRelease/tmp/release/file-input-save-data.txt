@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 24 20:48:11 WIB 2019
+#Wed Apr 24 21:39:47 WIB 2019
 5.base=/home/rps/retno/kln_pre/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out
 42.base=/home/rps/retno/kln_pre/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out
 22.path=flutter_assets/assets/banner3.jpg
