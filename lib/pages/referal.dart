@@ -12,15 +12,16 @@ class _ReferalState extends State<Referal> {
       home: Scaffold(
         body: Container(
           child: new Container(
-              child: Center(
-                child: Text(
-                  "Referal",
-                  style: TextStyle(
-                      fontSize: 30.0,
-                      fontWeight: FontWeight.w700,
-                      color: Color(0xFFFFF3238)),
-                ),
-              )),
+            child: Center(
+              child: Text(
+                "Referral",
+                style: TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w700,
+                    color: Color(0xFFFFF3238)),
+              ),
+            ),
+          ),
         ),
       ),
     );

@@ -12,15 +12,16 @@ class _PesananState extends State<Pesanan> {
       home: Scaffold(
         body: Container(
           child: new Container(
-              child: Center(
-                child: Text(
-                  "Pesanan",
-                  style: TextStyle(
-                      fontSize: 30.0,
-                      fontWeight: FontWeight.w700,
-                      color: Color(0xFFFFF3238)),
-                ),
-              )),
+            child: Center(
+              child: Text(
+                "Pesanan",
+                style: TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w700,
+                    color: Color(0xFFFFF3238)),
+              ),
+            ),
+          ),
         ),
       ),
     );

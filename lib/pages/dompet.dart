@@ -12,15 +12,16 @@ class _DompetState extends State<Dompet> {
       home: Scaffold(
         body: Container(
           child: new Container(
-              child: Center(
-                child: Text(
-                  "Dompet",
-                  style: TextStyle(
-                      fontSize: 30.0,
-                      fontWeight: FontWeight.w700,
-                      color: Color(0xFFFFF3238)),
-                ),
-              )),
+            child: Center(
+              child: Text(
+                "Dompet",
+                style: TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w700,
+                    color: Color(0xFFFFF3238)),
+              ),
+            ),
+          ),
         ),
       ),
     );

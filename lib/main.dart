@@ -29,33 +29,46 @@ class _HomePageState extends State<HomePage>
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-      body: new PageView(
-        children: <Widget>[Home(), Pesanan(), Dompet(), Referal()],
-        controller: pageController,
-        onPageChanged: onPageChanged,
+      home: Scaffold(
+        body: new PageView(
+          children: <Widget>[Home(), Pesanan(), Dompet(), Referal()],
+          controller: pageController,
+          onPageChanged: onPageChanged,
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(
+                IconData(0xe800, fontFamily: 'home'),
+              ),
+              title: Text('Home'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                IconData(0xf290, fontFamily: 'bag'),
+              ),
+              title: Text('Pesanan'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                IconData(0xe800, fontFamily: 'wallet'),
+              ),
+              title: Text('Dompet'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                IconData(0xe800, fontFamily: 'present'),
+              ),
+              title: Text('Referral'),
+            ),
+          ],
+          onTap: onTap,
+          currentIndex: page,
+          fixedColor: Colors.black,
+        ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-              icon: Icon(IconData(0xe800, fontFamily: 'home')),
-              title: Text('Home')),
-          BottomNavigationBarItem(
-              icon: Icon(IconData(0xf290, fontFamily: 'bag')),
-              title: Text('Pesanan')),
-          BottomNavigationBarItem(
-              icon: Icon(IconData(0xe800, fontFamily: 'wallet')),
-              title: Text('Dompet')),
-          BottomNavigationBarItem(
-              icon: Icon(IconData(0xe800, fontFamily: 'present')),
-              title: Text('Referal')),
-        ],
-        onTap: onTap,
-        currentIndex: page,
-        fixedColor: Colors.black,
-      ),
-    ));
+    );
   }
 
   @override
@@ -76,8 +89,10 @@ class _HomePageState extends State<HomePage>
   }
 
   void onPageChanged(int page) {
-    setState(() {
-      this.page = page;
-    });
+    setState(
+      () {
+        this.page = page;
+      },
+    );
   }
 }
