@@ -8,17 +8,24 @@
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/release/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/release/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/release/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/release/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/release/isolate_snapshot_instr" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/release/isolate_snapshot_instr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/release/kernel_compile.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/release/kernel_compile.d.fingerprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/release/snapshot.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/release/snapshot.d.fingerprint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_instr" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_instr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/reports/lint-results-release-fatal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +39,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="667">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,19 +51,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/home.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="1005" column="10" lean-forward="true" selection-start-line="1005" selection-start-column="10" selection-end-line="1005" selection-end-column="10" />
+            <state relative-caret-position="579">
+              <caret line="1146" selection-end-line="1146" />
               <folding>
                 <element signature="e#415#1698#0" />
                 <element signature="e#1738#3961#0" />
-                <element signature="e#4011#13871#0" />
-                <element signature="e#13902#14588#0" />
-                <element signature="e#14628#20520#0" />
-                <element signature="e#20560#30415#0" />
-                <element signature="e#30444#35333#0" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -67,16 +77,16 @@
         <option value="$PROJECT_DIR$/lib/pages/referal.dart" />
         <option value="$PROJECT_DIR$/lib/pages/pesanan.dart" />
         <option value="$PROJECT_DIR$/lib/pages/dompet.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/pages/home.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="707" />
-    <option name="y" value="24" />
-    <option name="width" value="659" />
-    <option name="height" value="744" />
+    <option name="x" value="214" />
+    <option name="y" value="49" />
+    <option name="width" value="657" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -84,6 +94,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,20 +105,51 @@
             <path>
               <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
               <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kln_pre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kln_pre" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/coba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bloem_Valleys" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -143,11 +185,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
+    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16810684" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25923017" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -155,10 +197,10 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32923076" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.65076923" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.64153844" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -171,13 +213,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/pages/dompet.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/referal.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -192,25 +227,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://$USER_HOME$/development/flutter/packages/flutter/lib/src/painting/gradient.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="65">
+          <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/dompet.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="16" lean-forward="true" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1794" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/home.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="1005" column="10" lean-forward="true" selection-start-line="1005" selection-start-column="10" selection-end-line="1005" selection-end-column="10" />
+        <state relative-caret-position="579">
+          <caret line="1146" selection-end-line="1146" />
           <folding>
             <element signature="e#415#1698#0" />
             <element signature="e#1738#3961#0" />
-            <element signature="e#4011#13871#0" />
-            <element signature="e#13902#14588#0" />
-            <element signature="e#14628#20520#0" />
-            <element signature="e#20560#30415#0" />
-            <element signature="e#30444#35333#0" />
           </folding>
         </state>
       </provider>

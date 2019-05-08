@@ -180,6 +180,23 @@ class _HomeState extends State<Home> {
                         ),
                         Positioned(
                           child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
                             margin: EdgeInsets.only(left: 10.0, top: 10.0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -229,6 +246,23 @@ class _HomeState extends State<Home> {
                                 child: Image.asset('assets/merchant1.png'),
                               ),
                             ],
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
                           ),
                         ),
                         Positioned(
@@ -286,6 +320,23 @@ class _HomeState extends State<Home> {
                         ),
                         Positioned(
                           child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
                             margin: EdgeInsets.only(left: 10.0, top: 10.0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -335,6 +386,23 @@ class _HomeState extends State<Home> {
                                 child: Image.asset('assets/merchant1.png'),
                               ),
                             ],
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
                           ),
                         ),
                         Positioned(
@@ -644,6 +712,23 @@ class _HomeState extends State<Home> {
                         ),
                         Positioned(
                           child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
                             margin: EdgeInsets.only(left: 10.0, top: 10.0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -693,6 +778,23 @@ class _HomeState extends State<Home> {
                                 child: Image.asset('assets/merchant1.png'),
                               ),
                             ],
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
                           ),
                         ),
                         Positioned(
@@ -750,6 +852,23 @@ class _HomeState extends State<Home> {
                         ),
                         Positioned(
                           child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
                             margin: EdgeInsets.only(left: 10.0, top: 10.0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -799,6 +918,23 @@ class _HomeState extends State<Home> {
                                 child: Image.asset('assets/merchant1.png'),
                               ),
                             ],
+                          ),
+                        ),
+                        Positioned(
+                          child: Container(
+                            height: 100.0,
+                            width: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              gradient: LinearGradient(
+                                  colors: [
+                                    const Color(0xFF202020),
+                                    const Color(0xFF4C4C4C).withOpacity(0),
+                                  ],
+                                  begin: const FractionalOffset(0.0, 0.0),
+                                  end: const FractionalOffset(0.0, 1.0),
+                                  tileMode: TileMode.clamp),
+                            ),
                           ),
                         ),
                         Positioned(
